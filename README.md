@@ -62,10 +62,7 @@ CREATE TABLE `forecast` (
    - Buka browser, akses: http://localhost/observer-app
 4. Isi form dan klik Simpan🛠️ Tools yang Digunakan
 
-⚠️ Catatan Penting
-
-Saat ini script.js belum terintegrasi dengan form (form menggunakan submit biasa via PHP).
-
-Koneksi database menggunakan root dengan password kosong (sesuaikan di saveObservation.php jika perlu).
-
-Background gambar (weather1.jpg) dan logo (BMKG-Logo.png) sudah disertakan, boleh diganti sesuai selera.
+## ⚠️ Catatan Penting
+- Saat ini script.js belum terintegrasi dengan form (form menggunakan submit biasa via PHP).
+- Koneksi database menggunakan root dengan password kosong (sesuaikan di saveObservation.php jika perlu).
+- Background gambar (weather1.jpg) dan logo (BMKG-Logo.png) sudah disertakan, boleh diganti sesuai selera.
