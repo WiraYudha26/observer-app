@@ -1,4 +1,6 @@
 # 🌤️ Observer App
+Aplikasi web sederhana untuk **mencatat data observasi cuaca** dan menyimpannya ke database MySQL.
+
 ## 📋 Deskripsi Proyek
 **Observer App** adalah aplikasi berbasis web yang memungkinkan pengguna memasukkan data observasi cuaca secara manual (suhu, kelembaban, tekanan, curah hujan, dll) kemudian disimpan ke tabel `forecast` dalam database MySQL. Aplikasi ini menggunakan PHP native + MySQL dengan tampilan yang sederhana namun fungsional.
 
