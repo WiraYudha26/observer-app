@@ -1,24 +1,21 @@
-🌤️ Deskripsi Proyek
+# 🌤️ Observer App - Pengisian Data Observasi Cuaca
+## 📋 Deskripsi Proyek
+**Observer App** adalah aplikasi berbasis web yang memungkinkan pengguna memasukkan data observasi cuaca secara manual (suhu, kelembaban, tekanan, curah hujan, dll) kemudian disimpan ke tabel `forecast` dalam database MySQL. Aplikasi ini menggunakan PHP native + MySQL dengan tampilan yang sederhana namun fungsional.
 
-Observer App adalah aplikasi berbasis web yang memungkinkan pengguna memasukkan data observasi cuaca secara manual (suhu, kelembaban, tekanan, curah hujan, dll) kemudian disimpan ke tabel `forecast` dalam database MySQL. Aplikasi ini menggunakan PHP native + MySQL dengan tampilan yang sederhana namun fungsional.
-
-✨ Fitur
-
+## ✨ Fitur
 - Form input data observasi cuaca
 - Penyimpanan data ke MySQL
 - Notifikasi berhasil/gagal
 - Background dan logo BMKG
 - Desain responsif sederhana
 
-🛠️ Tools yang Digunakan
-
+## 🛠️ Tools yang Digunakan
 - Backend: PHP 8
 - Database: MySQL
 - Frontend: HTML, CSS, JavaScript
 - Web Server: XAMPP
 
-📁 Struktur Folder
-
+## 📁 Struktur Folder
 observer-app/
 
 ├── index.php (Halaman utama + form input)
@@ -35,12 +32,11 @@ observer-app/
 
 └── README.md
 
+## 🗄️ Database
 
-🗄️ Database
+**Nama Database**: `cuaca`
 
-Nama Database: `cuaca`
-
-Tabel: `forecast`
+**Tabel**: `forecast`
 
 ```sql
 CREATE TABLE `forecast` (
@@ -55,23 +51,16 @@ CREATE TABLE `forecast` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
-🚀 Cara Instalasi & Penggunaan
+## 🚀 Cara Instalasi & Penggunaan
 
 1. Clone / Download repository ini
-
 2. Import database
-
-- Buat database bernama cuaca
-
-- Import file forecast.sql
-
-3. Letakkan folder ke dalam htdocs (XAMPP) atau root web server kamu.
-
-- Jalankan
-
-- Buka browser, akses: http://localhost/observer-app
-
-4. Isi form dan klik Simpan
+   - Buat database bernama cuaca
+   - Import file forecast.sql
+3. Letakkan folder ke dalam htdocs (XAMPP) atau root web server kamu
+   - Jalankan
+   - Buka browser, akses: http://localhost/observer-app
+4. Isi form dan klik Simpan🛠️ Tools yang Digunakan
 
 ⚠️ Catatan Penting
 
@@ -81,6 +70,5 @@ Koneksi database menggunakan root dengan password kosong (sesuaikan di saveObser
 
 Background gambar (weather1.jpg) dan logo (BMKG-Logo.png) sudah disertakan, boleh diganti sesuai selera.
 
-#### ###### ## ###### #### #### ###### ## ###### #### #### ###### ## ###### #### #### ###### ## ###### ####
-
+## ====== == ====== ==== ====== == ====== ==== ====== == ====== ======
 👤 Pembuat: Wira Sanwa Yudha
