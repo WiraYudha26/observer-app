@@ -26,21 +26,16 @@ Aplikasi web sederhana untuk **mencatat data observasi cuaca** dan menyimpannya 
 ---
 
 ## 📁 Struktur Folder
+```bash
 observer-app/
-
-├── index.php (Halaman utama + form input)
-
-├── saveObservation.php (Proses penyimpanan data)
-
-├── script.js (Javascript)                 
-
-├── forecast.sql (Skema database)
-
+├── index.php                 # Halaman utama + form input
+├── saveObservation.php       # Proses penyimpanan data
+├── script.js                 # JavaScript (belum terintegrasi penuh)
+├── forecast.sql              # Skema database
 ├── BMKG-Logo.png
-
 ├── weather1.jpg
-
 └── README.md
+```
 
 ---
 
@@ -74,7 +69,10 @@ CREATE TABLE `forecast` (
 3. Letakkan folder ke dalam htdocs (XAMPP) atau root web server kamu
    - Jalankan
    - Buka browser, akses: http://localhost/observer-app
-4. Isi form dan klik Simpan🛠️ Tools yang Digunakan
+4. Isi form dan klik Simpan
+
+---
+
 ## ⚠️ Catatan Penting
 - Saat ini script.js belum terintegrasi dengan form (form menggunakan submit biasa via PHP).
 - Koneksi database menggunakan root dengan password kosong (sesuaikan di saveObservation.php jika perlu).
