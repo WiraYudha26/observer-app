@@ -9,7 +9,7 @@
 - Background dan logo BMKG
 - Desain responsif sederhana
 
-## 🛠️ Tools yang Digunakan
+## 🛠️ Tools
 - Backend: PHP 8
 - Database: MySQL
 - Frontend: HTML, CSS, JavaScript
