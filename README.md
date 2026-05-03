@@ -10,7 +10,7 @@ Observer App adalah aplikasi berbasis web yang memungkinkan pengguna memasukkan 
 - Background dan logo BMKG
 - Desain responsif sederhana
 
-🛠️ Teknologi yang Digunakan
+🛠️ Tools yang Digunakan
 
 - Backend: PHP 8
 - Database: MySQL
