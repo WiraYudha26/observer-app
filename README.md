@@ -21,13 +21,13 @@ Observer App adalah aplikasi berbasis web yang memungkinkan pengguna memasukkan 
 
 observer-app/
 
-├── index.php                 # Halaman utama + form input
+├── index.php (Halaman utama + form input)
 
-├── saveObservation.php       # Proses penyimpanan data
+├── saveObservation.php (Proses penyimpanan data)
 
-├── script.js                 # JavaScript (belum terintegrasi penuh)
+├── script.js (Javascript)                 
 
-├── forecast.sql              # Skema database
+├── forecast.sql (Skema database)
 
 ├── BMKG-Logo.png
 
