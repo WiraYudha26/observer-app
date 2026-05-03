@@ -69,6 +69,3 @@ Saat ini script.js belum terintegrasi dengan form (form menggunakan submit biasa
 Koneksi database menggunakan root dengan password kosong (sesuaikan di saveObservation.php jika perlu).
 
 Background gambar (weather1.jpg) dan logo (BMKG-Logo.png) sudah disertakan, boleh diganti sesuai selera.
-
-## ====== == ====== ==== ====== == ====== ==== ====== == ====== ======
-👤 Pembuat: Wira Sanwa Yudha
