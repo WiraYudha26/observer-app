@@ -1,8 +1,12 @@
 # 🌤️ Observer App
 Aplikasi web sederhana untuk **mencatat data observasi cuaca** dan menyimpannya ke database MySQL.
 
+---
+
 ## 📋 Deskripsi Proyek
 **Observer App** adalah aplikasi berbasis web yang memungkinkan pengguna memasukkan data observasi cuaca secara manual (suhu, kelembaban, tekanan, curah hujan, dll) kemudian disimpan ke tabel `forecast` dalam database MySQL. Aplikasi ini menggunakan PHP native + MySQL dengan tampilan yang sederhana namun fungsional.
+
+---
 
 ## ✨ Fitur
 - Form input data observasi cuaca
@@ -11,11 +15,15 @@ Aplikasi web sederhana untuk **mencatat data observasi cuaca** dan menyimpannya 
 - Background dan logo BMKG
 - Desain responsif sederhana
 
+---
+
 ## 🛠️ Tools
 - Backend: PHP 8
 - Database: MySQL
 - Frontend: HTML, CSS, JavaScript
 - Web Server: XAMPP
+
+---
 
 ## 📁 Struktur Folder
 observer-app/
@@ -33,6 +41,8 @@ observer-app/
 ├── weather1.jpg
 
 └── README.md
+
+---
 
 ## 🗄️ Database
 
@@ -53,6 +63,8 @@ CREATE TABLE `forecast` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 ```
 
+---
+
 ## 🚀 Cara Instalasi & Penggunaan
 
 1. Clone / Download repository ini
@@ -63,7 +75,6 @@ CREATE TABLE `forecast` (
    - Jalankan
    - Buka browser, akses: http://localhost/observer-app
 4. Isi form dan klik Simpan🛠️ Tools yang Digunakan
-
 ## ⚠️ Catatan Penting
 - Saat ini script.js belum terintegrasi dengan form (form menggunakan submit biasa via PHP).
 - Koneksi database menggunakan root dengan password kosong (sesuaikan di saveObservation.php jika perlu).
